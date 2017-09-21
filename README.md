@@ -13,26 +13,26 @@ You will see colors in the terminal as to whether the given name is available.
 bash-4.4$ python -m pip install avail
 bash-4.4$ python -m avail name
 dev
- - bitbucket
- - github
- - gitlab
+ - [?] bitbucket
+ - [N] github
+ - [?] gitlab
 package
- - cargo
- - npm
- - pypi
- - rubygems
+ - [?] cargo
+ - [?] npm
+ - [Y] pypi
+ - [N] rubygems
 social
- - dribble
- - mastodon.social
- - tumblr
- - twitter
+ - [?] dribble
+ - [?] mastodon.social
+ - [?] tumblr
+ - [?] twitter
 web
- - name.com
- - name.io
- - name.me
- - name.net
- - name.org
- - na.me
+ - [N] name.com
+ - [Y] name.io
+ - [N] name.me
+ - [N] name.net
+ - [N] name.org
+ - [N] na.me
  
  ## Contributing
  
