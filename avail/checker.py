@@ -104,7 +104,8 @@ for _args in [('twitter', 'https://twitter.com/%s'),
 # Developer Checkers
 for _args in [('github', 'https://github.com/%s'),
               ('gitlab', 'https://gitlab.com/%s'),
-              ('bitbucket', 'https://bitbucket.com/%s')]:
+              ('bitbucket', 'https://bitbucket.com/%s'),
+              ('dockerhub', 'https://hub.docker.com/u/%s')]:
     ALL_CHECKERS.append(HTTPChecker('dev', _args[0], _args[1]))
 
 # Package Management Checkers
