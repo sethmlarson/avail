@@ -33,13 +33,14 @@ web
  - [N] name.net
  - [N] name.org
  - [N] na.me
+```
+
+## Contributing
  
- ## Contributing
+Pull Requests as welcome! This is a small project that is made only to suit my own needs.
+If you want to expand it to check more services feel free to add them.
  
- Pull Requests as welcome! This is a small project that is made only to suit my own needs.
- If you want to expand it to check more services feel free to add them.
+## License
  
- ## License
- 
- Avail is licensed under Apache-2.0.
+Avail is licensed under Apache-2.0.
  
