@@ -3,7 +3,9 @@ import colorama
 from .checker import ALL_CHECKERS
 
 
-def main(argv):
+def main(argv=None):
+    if argv is None:
+        argv = sys.argv[1:]
     colorama.init()
     last_category = None
     exit_code = 0
